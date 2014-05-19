@@ -1,0 +1,15 @@
+{
+  "name": "jstesting_grunt",
+  "version": "0.0.0",
+  "description": "My test for grunt",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Hagen",
+  "license": "ISC"
+}
