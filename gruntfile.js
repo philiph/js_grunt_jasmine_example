@@ -10,7 +10,10 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ['src/**/*.js', 'tests/**/*.js']
+      all: ['src/**/*.js', 'tests/**/*.js'],
+      options: {
+        curly: true
+      }
     }
   });
 
