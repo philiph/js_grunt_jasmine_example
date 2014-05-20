@@ -23,7 +23,7 @@ describe("Calculator", function() {
   it("should be able to created", function() {
     expect(calc).toBeDefined();
     expect(calc).not.toBe(null);
-  })
+  });
 
   describe("add", function() {
 
