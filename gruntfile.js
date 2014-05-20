@@ -14,11 +14,16 @@ module.exports = function(grunt) {
       options: {
         curly: true
       }
+    },
+    watch: {
+      files: ['src/**/*.js', 'tests/**/*.js'],
+      tasks: ['jshint', 'jasmine']
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['jshint', 'jasmine']);
 
